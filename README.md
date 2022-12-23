@@ -4,6 +4,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/splace.svg)](https://www.npmjs.com/package/splace)
 [![build](https://github.com/remarkablemark/splace/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablemark/splace/actions/workflows/build.yml)
+[![codecov](https://codecov.io/gh/remarkablemark/splace/branch/master/graph/badge.svg?token=3G1H3T9BPT)](https://codecov.io/gh/remarkablemark/splace)
 
 Split and replace string:
 
