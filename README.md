@@ -12,6 +12,8 @@ Split and replace string:
 splace(string, replace[, excludeEmpty])
 ```
 
+[Replit](https://replit.com/@remarkablemark/splace)
+
 ## Quick Start
 
 ```ts
