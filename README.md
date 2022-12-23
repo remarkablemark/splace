@@ -10,7 +10,9 @@ Split and replace string.
 ## Quick Start
 
 ```ts
-import 'splace';
+import { splace } from 'splace';
+
+splace('Hello, world!', { world: 'person' }); // ['Hello, ', 'person', '!']
 ```
 
 ## Installation
@@ -29,8 +31,51 @@ yarn add splace
 
 ## Usage
 
+Import with ES modules:
+
 ```ts
-import 'splace';
+import { splace } from 'splace';
+```
+
+Require with CommonJS:
+
+```ts
+const { splace } = require('splace');
+```
+
+Split and replace a word:
+
+```ts
+splace('Hello, world!', { world: 'mate' }); // ['Hello, ', 'mate', '!']
+```
+
+Split and replace words:
+
+```ts
+splace('Hello, world!', { Hello: "G'day", world: 'mate' }); // ["G'day", ', ', 'mate', '!']
+```
+
+Split and replace based on object order:
+
+```ts
+splace('How much wood would a woodchuck chuck, if a woodchuck could chuck wood?', {
+  woodchuck: "foo",
+  wood: 'bar',
+  chuck: 'baz,
+}).join('');
+// 'How much bar would a foo baz, if a foo could baz bar?'
+```
+
+Split and replace non-string values:
+
+```ts
+splace('1 + 1 = 2', { 1: {}, 2: [] }); // [{}, ' + ', {}, ' = ', []]
+```
+
+Empty strings are removed from the output by default. To prevent empty strings from being removed:
+
+```ts
+splace('foo', { foo: 'bar' }, false); // ['', 'bar', '']
 ```
 
 ## Release
