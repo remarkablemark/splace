@@ -5,7 +5,11 @@
 [![NPM version](https://img.shields.io/npm/v/splace.svg)](https://www.npmjs.com/package/splace)
 [![build](https://github.com/remarkablemark/splace/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablemark/splace/actions/workflows/build.yml)
 
-Split and replace string.
+Split and replace string:
+
+```
+splace(string, replace[, excludeEmpty])
+```
 
 ## Quick Start
 
