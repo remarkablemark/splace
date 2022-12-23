@@ -1,7 +1,7 @@
 {
-  "name": "npm-package-typescript-template",
+  "name": "splace",
   "version": "1.0.0-alpha",
-  "description": "npm package TypeScript template",
+  "description": "Split and replace string",
   "author": "Mark <mark@remarkablemark.org>",
   "main": "lib/index.js",
   "scripts": {
@@ -19,13 +19,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/remarkablemark/npm-package-typescript-template"
+    "url": "https://github.com/remarkablemark/splace"
   },
   "bugs": {
-    "url": "https://github.com/remarkablemark/npm-package-typescript-template/issues"
+    "url": "https://github.com/remarkablemark/splace/issues"
   },
   "keywords": [
-    "npm-package-typescript-template"
+    "splace",
+    "string",
+    "split",
+    "replace"
   ],
   "dependencies": {},
   "devDependencies": {
