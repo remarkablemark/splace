@@ -75,14 +75,14 @@ splace('How much wood would a woodchuck chuck, if a woodchuck could chuck wood?'
 // 'How much bar would a foo baz, if a foo could baz bar?'
 ```
 
-Split and replace non-string values:
+Split and replace string with non-string values:
 
 ```ts
 splace('1 + 1 = 2', { 1: {}, 2: [] });
 // [{}, ' + ', {}, ' = ', []]
 ```
 
-Empty strings are removed from the output by default. To prevent empty strings from being removed:
+Empty strings are removed by default. To keep empty strings:
 
 ```ts
 splace('foo', { foo: 'bar' }, false);
