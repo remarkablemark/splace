@@ -30,7 +30,7 @@ describe('error', () => {
       expect(() => {
         splace('', argument as unknown as object);
       }).toThrowError('Second argument must be an object');
-    }
+    },
   );
 });
 
@@ -110,7 +110,7 @@ describe('edge cases', () => {
         '[': 'l',
         ']': 'm',
         '\\': 'n',
-      })
+      }),
     ).toMatchInlineSnapshot(`
       [
         "a",

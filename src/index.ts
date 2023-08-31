@@ -26,7 +26,7 @@ export function splace(string: string, replace: object, excludeEmpty = true) {
     Object.prototype.hasOwnProperty.call(replace, string)
       ? // eslint-disable-next-line @typescript-eslint/no-explicit-any
         (replace as Record<string, any>)[string]
-      : string
+      : string,
   );
 
   if (excludeEmpty) {
