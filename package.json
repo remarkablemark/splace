@@ -1,6 +1,6 @@
 {
   "name": "splace",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Split and replace string",
   "author": "Mark <mark@remarkablemark.org>",
   "main": "lib/index.js",
