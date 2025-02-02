@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/remarkablemark/splace"
+    "url": "git+https://github.com/remarkablemark/splace.git"
   },
   "bugs": {
     "url": "https://github.com/remarkablemark/splace/issues"
