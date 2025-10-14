@@ -21,7 +21,7 @@ describe('error', () => {
   ])('throws error if first argument is %p', (argument) => {
     expect(() => {
       splace(argument as string, {});
-    }).toThrowError('First argument must be a string');
+    }).toThrow('First argument must be a string');
   });
 
   it.each(['', 'string', 0, 1, Symbol(''), null, undefined])(
@@ -29,7 +29,7 @@ describe('error', () => {
     (argument) => {
       expect(() => {
         splace('', argument as unknown as object);
-      }).toThrowError('Second argument must be an object');
+      }).toThrow('Second argument must be an object');
     },
   );
 });
