@@ -16,7 +16,7 @@ export function splace(string: string, replace: object, excludeEmpty = true) {
   }
 
   const pattern = Object.keys(replace)
-    .map((string) => `${escape(string)}`)
+    .map((string) => escape(string))
     .join('|');
 
   const regex = new RegExp(`(${pattern})`, 'g');
@@ -24,8 +24,7 @@ export function splace(string: string, replace: object, excludeEmpty = true) {
 
   const result = strings.map((string: string) =>
     Object.prototype.hasOwnProperty.call(replace, string)
-      ? // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        (replace as Record<string, any>)[string]
+      ? (replace as Record<string, unknown>)[string]
       : string,
   );
 

@@ -32,26 +32,21 @@
   "devDependencies": {
     "@commitlint/cli": "21.2.4",
     "@commitlint/config-conventional": "21.2.4",
-    "@eslint/compat": "2.1.1",
-    "@eslint/eslintrc": "3.3.7",
     "@eslint/js": "10.0.1",
     "@types/jest": "30.0.0",
     "@types/node": "26.6.6",
-    "@typescript-eslint/eslint-plugin": "8.72.1",
-    "@typescript-eslint/parser": "8.72.1",
     "eslint": "10.14.0",
     "eslint-plugin-prettier": "5.5.7",
     "eslint-plugin-simple-import-sort": "14.0.0",
     "eslint-plugin-tsdoc": "0.5.4",
-    "globals": "17.14.0",
     "husky": "9.1.7",
     "jest": "30.5.2",
     "lint-staged": "17.6.0",
     "prettier": "3.9.10",
-    "standard-version": "9.5.0",
     "ts-jest": "29.4.15",
     "ts-node": "10.9.2",
-    "typescript": "5.9.3"
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.72.1"
   },
   "files": [
     "lib/"
