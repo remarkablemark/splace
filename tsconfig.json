@@ -8,8 +8,9 @@
     "sourceMap": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
+    "types": ["jest"],
     "outDir": "lib",
     "noEmit": true
   },
-  "include": ["src"]
+  "include": ["src", "jest.config.ts"]
 }
