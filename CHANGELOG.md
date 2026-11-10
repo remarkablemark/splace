@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.4](https://github.com/remarkablemark/splace/compare/v1.0.3...v1.0.4) (2026-11-10)
+
+### Miscellaneous Chores
+
+- release 1.0.4 ([2935f90](https://github.com/remarkablemark/splace/commit/2935f90cf0da0de01fca9fa660717b2ba3092dea))
+
 ## [1.0.3](https://github.com/remarkablemark/splace/compare/v1.0.2...v1.0.3) (2025-10-14)
 
 ### Miscellaneous Chores
